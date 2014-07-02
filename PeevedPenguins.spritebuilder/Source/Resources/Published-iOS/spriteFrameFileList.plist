@@ -8,6 +8,10 @@
 		<integer>1</integer>
 	</dict>
 	<key>spriteFrameFiles</key>
-	<array/>
+	<array>
+		<string>PeevedPenguinsAssets.plist</string>
+		<string>animation.plist</string>
+		<string>ccbResources.plist</string>
+	</array>
 </dict>
 </plist>
