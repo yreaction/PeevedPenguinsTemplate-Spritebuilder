@@ -160,8 +160,8 @@ static const float MIN_SPEED = 5.f;
     [penguin.physicsBody applyForce:force];
 
     self.position = ccp(0, 0);
-    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    [_contentNode runAction:follow];
+   _followPenguin  = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:_followPenguin];
 }
 
 - (void)nextAttempt {
