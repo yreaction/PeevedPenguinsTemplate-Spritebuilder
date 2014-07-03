@@ -25,7 +25,7 @@ static const float MIN_SPEED = 10.f;
 }
 
 - (void)didLoadFromCCB {
-    _physicsNode.debugDraw = TRUE;
+    //_physicsNode.debugDraw = TRUE;
   
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
@@ -179,7 +179,6 @@ static const float MIN_SPEED = 10.f;
 }
 
 - (void)retry {
-    
     [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"GamePlay"]];
 }
 @end
