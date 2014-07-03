@@ -139,8 +139,8 @@ static const float MIN_SPEED = 5.f;
         _currentPenguin.physicsBody.allowsRotation = TRUE;
         
         // follow the flying penguin
-        _followPenguin  = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
-        [_contentNode runAction:_followPenguin];
+        CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        [_contentNode runAction:follow];
   
     }
 }
@@ -160,7 +160,7 @@ static const float MIN_SPEED = 5.f;
     [penguin.physicsBody applyForce:force];
 
     self.position = ccp(0, 0);
-   _followPenguin  = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    _followPenguin  = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     [_contentNode runAction:_followPenguin];
 }
 
@@ -171,7 +171,6 @@ static const float MIN_SPEED = 5.f;
     CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0, 0)];
     [_contentNode runAction:actionMoveTo];
 }
-
 - (void)retry {
     [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"GamePlay"]];
 }
