@@ -179,6 +179,7 @@ static const float MIN_SPEED = 10.f;
 }
 
 - (void)retry {
+    
     [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"GamePlay"]];
 }
 @end
