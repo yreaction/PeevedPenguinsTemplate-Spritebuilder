@@ -125,7 +125,7 @@
 					<key>type</key>
 					<string>Degrees</string>
 					<key>value</key>
-					<real>-3.0266602039337158</real>
+					<real>-11.799890518188477</real>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -149,7 +149,7 @@
 					<key>type</key>
 					<string>Degrees</string>
 					<key>value</key>
-					<real>-86.131782531738281</real>
+					<real>-88.567054748535156</real>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -157,7 +157,7 @@
 					<key>type</key>
 					<string>Degrees</string>
 					<key>value</key>
-					<real>88.17529296875</real>
+					<real>90.410263061523438</real>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -412,8 +412,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -526,8 +524,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>-3.546875</real>
-											<real>-10.238311767578125</real>
+											<real>-8.589813232421875</real>
+											<real>-13.554679870605469</real>
 										</array>
 										<array>
 											<real>0.0</real>
@@ -542,16 +540,16 @@
 											<real>109.171875</real>
 										</array>
 										<array>
-											<real>20.453125</real>
-											<real>-8.574249267578125</real>
+											<real>27.464874267578125</real>
+											<real>-12.121086120605469</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>20.453125</real>
-												<real>-8.574249267578125</real>
+												<real>27.464874267578125</real>
+												<real>-12.121086120605469</real>
 											</array>
 											<array>
 												<real>40.753875732421875</real>
@@ -566,8 +564,8 @@
 												<real>177</real>
 											</array>
 											<array>
-												<real>-3.546875</real>
-												<real>-10.238311767578125</real>
+												<real>-8.589813232421875</real>
+												<real>-13.554679870605469</real>
 											</array>
 										</array>
 									</array>
@@ -645,6 +643,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
